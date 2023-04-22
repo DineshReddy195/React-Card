@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Assignment</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+<body style="background-color: black;">
+    <div id="root"></div>
+    <script>
+        let card=React.createElement('div',{style:{width:"315px",backgroundColor:'white',margin:'100px auto',padding:'30px',height:'300px',textAlign:'center'}},[React.createElement('div',{},React.createElement('img',{src:'https://pbs.twimg.com/profile_images/1421211957969960966/Vn7s-v3m_400x400.jpg',style:{width:'100px',height:'100px',borderRadius:'50%',marginLeft:'10px'}}),React.createElement('h2',{},'Alexandra Caulea'),React.createElement('p',null,'I enjoy drinking a cup of coffee everyday')),React.createElement('div',null,React.createElement('span',{style:{marginRight:'100px',fontWeight:'600',color:'purple'}},'172'),React.createElement('span',{style:{marginRight:'100px',fontWeight:'600',color:'purple'}},'47'),React.createElement('span',{style:{marginRight:'100px',fontWeight:'600',color:'purple'}},'20')),React.createElement('div',{style:{display:'flex'}},React.createElement('h3',{style:{marginRight:'20px'}},'POSTS'),React.createElement('h3',{style:{marginRight:'20px'}},'FOLLOWERS'),React.createElement('h3',{style:{marginRight:'20px'}},'FOLLOWING')),React.createElement('div',{style:{display:'flex',justifyContent:'space-around'}},React.createElement('button',{style:{backgroundColor:'purple',border:'none',height:'30px',width:'100px',color:'white',borderRadius:'5px',cursor:'pointer'}},'FOLLOW'),React.createElement('button',{style:{backgroundColor:'paleVioletred',border:'none',height:'30px',width:'100px',color:'white',borderRadius:'5px',cursor:'pointer'}},'MESSAGE'))])
+        ReactDOM.render(card,document.getElementById('root'))
+    </script>
+</body>
+</html>
